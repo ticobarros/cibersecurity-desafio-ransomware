@@ -2,7 +2,7 @@ import os
 import pyaes
 
 ## abrir o arquivo criptografado
-file_name = "tutorial.doc.ransomwareX"
+file_name = "tutorial.docx.ransomwareX"
 file = open(file_name, "rb")
 file_data = file.read()
 file.close()
